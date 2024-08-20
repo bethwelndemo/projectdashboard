@@ -1,0 +1,66 @@
+.table-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #1d2634;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fbf8f8;
+}
+
+.shoes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.shoes-table th, .shoes-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.shoes-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.shoes-table tr:nth-child(even) {
+    background-color: #1d2634;
+}
+
+
+
+.shoes-table td {
+    color: #757575;
+    font-size: 16px;
+}
+
+.shoes-table th {
+    text-align: left;
+}
+.loading-container, .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    color: #555;
+}
+.search-input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

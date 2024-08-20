@@ -1,0 +1,95 @@
+.home-container {
+    padding-left: 350px; /* Adjust this value based on the width of your sidebar */
+    padding-top: 40px;
+    padding-right: 20px;
+  }
+  
+  .home-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .home-card-wrapper {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .home-card {
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 35px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color inside cards for better contrast */
+  }
+  
+  .home-card.blue {
+    background-color: #2962ff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left; /* Blue color */
+  }
+  
+  .home-card.orange {
+    background-color: #ff6d00; /* Orange color */
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .home-card.red {
+    background-color: #d50000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left; /* Red color */
+  }
+  svg{
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+  
+  .home-card-body {
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: start;
+
+  }
+
+  /* maincontent.css */
+
+/* Container for the chart */
+.charts {
+  width: 100%; /* Ensure it takes full width of its container */
+  height: 300px; /* Set height for the chart */
+  padding: 20px;
+  margin-top: 50px; /* Add padding around the chart */
+  box-sizing: border-box; /* Include padding in the element’s total width and height */
+  margin-right: 30px;
+  border-radius: 8px; /* Optional: add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visual separation */
+}
+
+/* Style for the chart labels and axes */
+.recharts-cartesian-axis-tick {
+  font-size: 12px; /* Adjust font size of axis labels */
+  fill: #333; /* Set text color for axis labels */
+}
+
+.recharts-tooltip {
+  /* background-color: #fff; */
+  border: 1px solid #ddd; /* Border color for tooltips */
+  border-radius: 4px; /* Rounded corners for tooltips */
+}
+
+.recharts-legend {
+  margin-top: 10px; /* Space between chart and legend */
+}
+
+.recharts-bar {
+  transition: fill 0.3s; /* Smooth transition for bar color on hover */
+}
+
+.recharts-bar:hover {
+  fill: #82ca9d; /* Change bar color on hover */
+}
